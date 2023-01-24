@@ -1,0 +1,35 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ddtrace (0.54.2)
+      debase-ruby_core_source (<= 0.10.14)
+      msgpack
+    debase-ruby_core_source (0.10.14)
+    msgpack (1.6.0)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.8)
+    puma (6.0.2)
+      nio4r (~> 2.0)
+    rack (2.2.6.2)
+    rack-protection (3.0.5)
+      rack
+    ruby2_keywords (0.0.5)
+    sinatra (3.0.5)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.5)
+      tilt (~> 2.0)
+    tilt (2.0.11)
+
+PLATFORMS
+  arm64-darwin-21
+  arm64-darwin-22
+
+DEPENDENCIES
+  ddtrace
+  puma
+  sinatra
+
+BUNDLED WITH
+   2.4.4
